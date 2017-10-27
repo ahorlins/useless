@@ -8,22 +8,22 @@ int main()
 	printf( "Please, enter 3 numbers: " );
 	scanf( "%d%d%d", &a, &b, &c );
 
-	if ( a > b ) && ( a > c )	{
+	if ( a > b && a > c )	{
 		big = a;
 	}
-	if ( b > a ) && ( b > c )	{
+	if ( b > a && b > c )	{
 		big = b;
 	}
-	if ( c > b ) && ( c > a )	{
+	if ( c > b && c > a )	{
 		big = c;
 	}
-	if ( a < b ) && ( a < c )	{
+	if ( a < b && a < c )	{
 		small = a;
 	}
-	if ( b < a ) && ( b < c )	{
+	if ( b < a && b < c )	{
 		small = b;
 	}
-	if ( c < b ) && ( c < b )	{
+	if ( c < b && c < b )	{
 		small = c;
 	}
 
