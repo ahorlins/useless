@@ -7,7 +7,7 @@ int main()
 	/* int 6, 3, 8, 1, 4 
 	       a, b, c, d, e */
 
-	printf( "Input numbers: ");
+	printf( "Input 5 numbers: ");
 	scanf( "%d", &a);
 	min = max = a;
 	if ( a > max )	{
