@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main(void)
 {
 	int power = 1;
 	int x, y;
 	int i = 1;
 
-	printf("Type chislo: \n");
-	scanf("%d", x);
-	printf("Type stepen': \n");
-	scanf("%d", y);
+	printf("Type chislo: ");
+	scanf("%d", &x);
+	printf("Type stepen': ");
+	scanf("%d", &y);
 
 	while ( i <= y )	{
 		power *= x;
