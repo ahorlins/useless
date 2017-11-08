@@ -14,10 +14,10 @@ int main(int argc, char const *argv[])
 		printf("Vvedite rashod (-1 for end): ");
 		scanf("%f", &rashod);
 		
-		if ( rashod = -1)
+		if ( rashod == -1)
 			check = 0;
 		
-		while ( rashod != -1 )	{
+		if ( rashod != -1 )	{
 			printf("Пройденный путь: ");
 			scanf("%d", &way);
 		
@@ -27,6 +27,7 @@ int main(int argc, char const *argv[])
 		
 			result += zapravka;
 			i++;
+			zapravka = 0;
 		}
 	}
 
